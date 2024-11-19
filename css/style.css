@@ -95,9 +95,7 @@ body {
 
 /* ••••••••••••••• Sección Barra de Navegación ••••••••••••••• */
 .barra-navegacion-superior {
-    background: transparent;
-    backdrop-filter: blur(1.3125rem);
-    display: flex;
+    background-color: var(--color-fondo);
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
