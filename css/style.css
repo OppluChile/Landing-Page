@@ -491,10 +491,6 @@ body {
     -webkit-transition: all 0.25s;
 }
 
-.icono-subir:hover {
-    color: #1f75fe;
-}
-
 .seccion-redes-sociales {
     margin: 0;
     padding: 0.9375rem;
@@ -578,6 +574,10 @@ body {
         height: 1.8125rem;
         width: 1.8125rem;
     }
+
+    .icono-subir:hover {
+        color: #1f75fe;
+    }
     
     .iconos-redes-sociales {
         height: 1.375rem;
@@ -596,6 +596,10 @@ body {
         height: 1.8125rem;
         width: 1.8125rem;
     }
+
+    .icono-subir:hover {
+        color: #1f75fe;
+    }
 }
 
 @media (min-width: 1201px){
@@ -608,5 +612,9 @@ body {
     .icono-subir {
         height: 2.1875rem;
         width: 2.1875rem;
+    }
+
+    .icono-subir:hover {
+        color: #1f75fe;
     }
 }
