@@ -65,34 +65,6 @@ body {
     padding: 0;
 }
 
-/* ••••••••••••••• Scrollbar ••••••••••••••• */
-::-webkit-scrollbar {
-    width: 0.9375rem;
-}
-
-::-webkit-scrollbar-track {
-    background: var(--blanco);
-}
-  
-::-webkit-scrollbar-thumb {
-    background: var(--azul-crayola);
-}
-  
-::-webkit-scrollbar-thumb:hover {
-    background: var(--azul-cobalto);
-}
-
-/* ••••••••••••••• Selección de Texto ••••••••••••••• */
-::-moz-selection { /* Code for Firefox */
-    color: var(--blanco);
-    background: var(--color-verde-aguacate);
-}
-  
-::selection {
-    color: var(--blanco);
-    background: var(--color-verde-aguacate);
-}
-
 /* ••••••••••••••• Sección Barra de Navegación ••••••••••••••• */
 .barra-navegacion-superior {
     background-color: var(--color-fondo);
