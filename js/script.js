@@ -16,7 +16,7 @@ const hour = document.querySelector(".horas");
 const minute = document.querySelector(".minutos");
 const second = document.querySelector(".segundos");
 
-const targetTime = new Date("June 01, 2025").getTime();
+const targetTime = new Date("September 15, 2026").getTime();
 
 function countdown() {
     const currentTime = new Date().getTime();
