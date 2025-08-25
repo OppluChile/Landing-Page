@@ -106,16 +106,21 @@
     }
 
     /******************************************************************* Navbar *******************************************************************/
-    .navbar-superior {
-        background-color: #f5f5f5;
-        border-bottom: 0.0625rem solid #cccccc;
-        margin: 0 auto;
-        padding: 0;
-        position: fixed;
-        height: auto;
-        width: 100%;
-        top: 0;
-        z-index: 100;
+    @supports ((-webkit-backdrop-filter: blur(1rem)) or (backdrop-filter: blur(1rem))){
+        .navbar-superior {
+            background-color: rgba(245, 245, 245, 0.9); /* Fallback sólido */ 
+            background-color: rgba(245, 245, 245, 0.16);
+            backdrop-filter: blur(1rem);
+            -webkit-backdrop-filter: blur(1rem);
+            border-bottom: 0.0625rem solid #cccccc;
+            margin: 0 auto;
+            padding: 0;
+            position: fixed;
+            height: auto;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+        }
     }
 
     .navbar-superior .bloque-ancho-maximo-navbar {
@@ -794,3 +799,4 @@
         font-weight: 300;
 
     }
+
