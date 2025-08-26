@@ -639,9 +639,9 @@
         height: 2.5rem;
         width: 7.5rem;
         transition: all 0.25s;
-        --webkit-transition: all 0.25s;
-        --moz-transition: all 0.25s;
-        --o-transition: all 0.25s;
+        -webkit-transition: all 0.25s;
+        -moz-transition: all 0.25s;
+        -o-transition: all 0.25s;
     }
 
     @media (min-width: 0px) and (max-width: 480px) {
@@ -666,9 +666,14 @@
     }
 
     @media (min-width: 1025px) and (max-width: 1200px) {
-        .seccion-footer .logo-opplu-footer {
-            height: 2.25rem;
-            width: 6.75rem;
+        .seccion-footer .logo-opplu-footer:hover {
+            color: #228b22;
+        }
+    }
+
+    @media (min-width: 1201px) and (max-width: 1920px) {
+        .seccion-footer .logo-opplu-footer:hover {
+            color: #228b22;
         }
     }
 
@@ -686,13 +691,9 @@
         height: 2.5rem;
         width: 2.5rem;
         transition: all 0.25s;
-        --webkit-transition: all 0.25s;
-        --moz-transition: all 0.25s;
-        --o-transition: all 0.25s;
-    }
-
-    .seccion-footer .icono-subir:hover {
-        color: #228b22;
+        -webkit-transition: all 0.25s;
+        -moz-transition: all 0.25s;
+        -o-transition: all 0.25s;
     }
 
     @media (min-width: 0px) and (max-width: 480px) {
@@ -721,6 +722,16 @@
             height: 2.25rem;
             width: 2.25rem;
         }
+
+        .seccion-footer .icono-subir:hover {
+            color: #228b22;
+        }
+    }
+
+    @media (min-width: 1201px) and (max-width: 1920px) {
+        .seccion-footer .icono-subir:hover {
+            color: #228b22;
+        }
     }
 
     .seccion-footer .bloque-redes-sociales-footer {
@@ -736,13 +747,9 @@
         height: 2rem;
         width: 2rem;
         transition: all 0.25s;
-        --webkit-transition: all 0.25s;
-        --moz-transition: all 0.25s;
-        --o-transition: all 0.25s;
-    }
-
-    .seccion-footer .iconos-redes-sociales:hover {
-        color: #228b22;
+        -webkit-transition: all 0.25s;
+        -moz-transition: all 0.25s;
+        -o-transition: all 0.25s;
     }
 
     @media (min-width: 0px) and (max-width: 480px) {
@@ -770,6 +777,16 @@
         .seccion-footer .iconos-redes-sociales {
             height: 2rem;
             width: 2rem;
+        }
+
+        .seccion-footer .iconos-redes-sociales:hover {
+            color: #228b22;
+        }
+    }
+
+    @media (min-width: 1201px) and (max-width: 1920px) {
+        .seccion-footer .iconos-redes-sociales:hover {
+            color: #228b22;
         }
     }
 
@@ -799,4 +816,5 @@
         font-weight: 300;
 
     }
+
 
