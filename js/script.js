@@ -2,11 +2,11 @@
 const saludo = new Date().getHours();
 let saludar;
 if (saludo < 12) {
-    saludar = "¡Buenos días!";
+    saludar = "Buenos días";
 } else if (saludo < 20) {
-    saludar = "¡Buenas tardes!";
+    saludar = "Buenas tardes";
 } else {
-    saludar = "¡Buenas noches!";
+    saludar = "Buenas noches";
 }
 document.getElementById("textoSaludo").innerHTML = saludar;
 
@@ -20,4 +20,5 @@ topButton.addEventListener("click", () => {
 //Año Actual
 const anio = new Date();
 let year = anio.getFullYear();
+
 document.getElementById("anioActual").innerHTML = year;
