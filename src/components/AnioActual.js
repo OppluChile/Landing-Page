@@ -1,0 +1,1 @@
+export function obtenerAnioActual(){let e=new Date;return e.getFullYear()}

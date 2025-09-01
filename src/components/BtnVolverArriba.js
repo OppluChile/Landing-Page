@@ -1,0 +1,1 @@
+export function initScrollToTop(e="btnVolverArriba"){let t=document.getElementById(e);t&&t.addEventListener("click",()=>{let e=window.matchMedia("(prefers-reduced-motion: reduce)").matches;window.scrollTo({top:0,behavior:e?"auto":"smooth"})})}

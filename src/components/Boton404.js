@@ -1,0 +1,1 @@
+export function redirectToHome(){window.location.href="/"}export function setup404Button(){let e=document.getElementById("btn404");e&&e.addEventListener("click",redirectToHome)}

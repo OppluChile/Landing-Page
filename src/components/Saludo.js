@@ -1,0 +1,1 @@
+export const obtenerSaludo=()=>{let e=new Date().getHours();return e<12?"Buenos d\xedas":e<20?"Buenas tardes":"Buenas noches"};export const mostrarSaludo=e=>{let t=document.getElementById(e);t?t.textContent=obtenerSaludo():console.warn(`Elemento con id "${e}" no encontrado.`)};
